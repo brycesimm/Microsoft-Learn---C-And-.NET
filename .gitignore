@@ -1,0 +1,92 @@
+############################
+# Build and Debug Artifacts
+############################
+bin/
+obj/
+artifacts/
+TestResults/
+*.dll
+*.exe
+*.app
+*.log
+*.pdb
+*.cache
+*.tlog
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.userosscache
+
+##########################
+# Visual Studio Specific
+##########################
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.csproj.user
+*.dbmdl
+
+########################
+# Rider & VS Code IDEs
+########################
+.idea/
+.vscode/
+
+########################
+# NuGet & Package Cache
+########################
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+.nuget/
+
+########################
+# Publish Output
+########################
+publish/
+*.Publish.xml
+
+########################
+# Environment Variables
+########################
+.env
+.env.*
+
+########################
+# IIS Express
+########################
+*.iisexpress/
+
+########################
+# DotCover / Coverage
+########################
+*.dotCover
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+*.trx
+
+########################
+# Entity Framework
+########################
+Migrations/*Snapshot.cs
+
+########################
+# OS-generated files
+########################
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+########################
+# Others (optional)
+########################
+# Uncomment the below if you generate database files locally
+# *.mdf
+# *.ldf
+# *.bak
